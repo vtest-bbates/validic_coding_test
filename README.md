@@ -3,11 +3,11 @@
 
 At Validic we help our customers by standarizing third party data.
 
-The problem:
+## The problem:
 
-Please write an application that uses the [Github Jobs API](https://jobs.github.com/api) to help show jobs that are broken down by city and then by position type (full-time/part-time).  Please use Ruby, Java (or other JVM-based language) or Go.
+Please write a web application that uses the [Github Jobs API](https://jobs.github.com/api) to help show jobs that are broken down by city and language. While you can use any language or framework you want, please note that at Validic our UIs are using frameworks like React and Angular.
 
-The cities we care about are:
+### The cities we care about are:
 
 - Boston
 - San Francisco
@@ -17,43 +17,29 @@ The cities we care about are:
 - Chicago
 - New York
 
-Program guidelines:
+### The languages we care about are:
+- Python
+- Node
+- JavaScript
+- Ruby
+- .NET
+- Java
+- Go
+
+## Program guidelines:
 - all work done in a git repository
 - a readme with instructions on how to run the application
-- a test suite
+- a brief test suite
 
-Ideal output:
+## Ideal output:
 
-```
+The ideal output would be a page with a little decoration that displays the results of a given search.  The filtering parameters for the search can be no filtering, filtered only on a single location, filtered only on a single language or filtered on both a single location and a single language.  The output should be a nicely formatted table, with pagination and some summary statistics at the footer.  The table shows each job, location, posting date and company.  Clicking the job title should display the job description in a right-hand pane, next to the table.  Clicking a second job description, should hide the first.
 
-Boston:
-  - Python
-    - full-time: 25%
-    - part-time: 10%
-    - unknown:  5%
-  - Ruby:
-    - full-time: 25%
-    - part-time: 10%
-    - unknown:  5%
-San Francisco:
-  - Node:
-    - full-time: 25%
-    - part-time: 10%
-    - unknown:  5%
-  - Scala:
-    - full-time: 25%
-    - part-time: 10%
-    - unknown:  5%
+### Design:
 
+The basic design should look something like this: [https://invis.io/QEBWBD9WP#/235844441_Fe_Code_Test_Table]
 
-Sourced: 1,123 job postings
-
-```
-
-That can be read as "In Boston, 25% of all current programming jobs are for Python and are full-time opportunities.".
-
-The numbers above are made up but your program should be able to give us some indication of programming language trends across those cities.
-
+## Final Instructions:
 ### Please fork this repo.  Working from the 'backend' branch, please add your code and then perform a pull request.  Once we have your code, please remove your fork from public view or delete it entirely.
 ### Please include a ANSWERS.MD file in your repo that includes answers and thoughts to the following:
 - challenges you ran into
