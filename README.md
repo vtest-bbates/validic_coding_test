@@ -54,7 +54,8 @@ That can be read as "In Boston, 25% of all current programming jobs are for Pyth
 
 The numbers above are made up but your program should be able to give us some indication of programming language trends across those cities.
 
-# Please tar/zip up your repo (or make a private repo and invite us) and send it along with an email talking about:
+# Please fork this repo.  Working from the 'backend' branch, please add your code and then perform a pull request.  Once we have your code, please remove your fork from public view or delete it entirely.
+# Please include a ANSWERS.MD file in your repo that includes answers and thoughts to the following:
 - challenges you ran into
 - areas of the code you are most proud of
 - areas of the code you are least proud of
